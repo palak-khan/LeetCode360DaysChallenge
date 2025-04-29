@@ -58,3 +58,24 @@
 //     }
 //     return maxSum / k;
 // };
+
+// Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
+
+// Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
+// Input: numbers = [2,7,11,15], target = 9
+// Output: [1,2]
+
+// let numbers = [2,7,11,15];
+// let target = 9;
+// let i = 0, j = 0;
+// let ans = [];
+// for(i = 0; i < numbers.length; i++){
+//     for(j = i+1; j< numbers.length; j++){
+//         if(numbers[i] === target - numbers[j]){
+//             ans.push(i+1);
+//             ans.push(j+1);
+//         }
+//     }
+// }
+
+// console.log(ans);
