@@ -1,6 +1,8 @@
 // Date: 27-07-2025
 // Problem: 2210. Count Hills and Valleys in an Array
 
+// brute force approach
+
 let nums = [2, 2, 3, 3, 2, 2, 1];
 
 let newArr = [];
@@ -19,3 +21,6 @@ for (let i = 1; i < newArr.length - 1; i++) {
 }
 console.log(newArr);
 console.log(count);
+
+
+// Optimized Approach
