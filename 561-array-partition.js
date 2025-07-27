@@ -9,7 +9,6 @@ for (let i = 0; i < nums.length; i += 2) {
   let pair = [nums[i], nums[i + 1]];
   sum += Math.min(...pair);
 }
-console.log(sum);
 
 // Second approach
 
