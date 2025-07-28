@@ -37,7 +37,7 @@ var isMonotonic = function (nums) {
 };
 isMonotonic([1, 3, 2]);
 
-// Optimized Approach 2
+// Optimized Approach 2 Runtime 0 ms 100% beats
 
 /**
  * @param {number[]} nums
@@ -57,9 +57,9 @@ var isMonotonic = function (nums) {
 isMonotonic([1, 3, 2]);
 isMonotonic([1, 2, 2, 3]);
 
-// Optimized Approach 3 Runtime 0 ms 100% beats
+// Optimized Approach 3 
 var isMonotonic = function (nums) {
-  let trend = 0; // 0=unknown, 1=increasing, -1=decreasing
+  let trend = 0; 
   for (let i = 0; i < nums.length - 1; i++) {
     if (nums[i] < nums[i + 1]) {
       if (trend === -1) return false;
