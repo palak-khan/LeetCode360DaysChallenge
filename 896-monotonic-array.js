@@ -73,3 +73,4 @@ var isMonotonic = function (nums) {
 };
 
 isMonotonic([1, 2, 2, 3]);
+
