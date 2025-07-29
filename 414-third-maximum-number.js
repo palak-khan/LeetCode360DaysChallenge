@@ -13,3 +13,5 @@ var thirdMax = function (nums) {
   nums.sort((a, b) => b - a);
   return nums[2];
 };
+
+console.log("hello")
