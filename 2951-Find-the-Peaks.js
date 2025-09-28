@@ -1,4 +1,4 @@
-// Date: 33-07-2025
+// Date: 31-07-2025
 // Problem: 162. Find Peak Element
 // bruteforce approach 100% beat
 var findPeaks = function(mountain) {
@@ -11,3 +11,6 @@ var findPeaks = function(mountain) {
     }
     return arr;
 };
+
+
+
