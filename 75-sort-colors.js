@@ -1,10 +1,20 @@
 // Date: 29-09-2025
 // Problem: 75. Sort Colors
-// Two-pointer approach
+// Dutch National Flag Algorithm/ 3 Pointers 100% beat
+let low = 0;
+let mid = 0;
+let high = nums.length - 1;
 
-var sortColors = function (nums) {
-  nums.sort((a, b) => a - b);
-  return nums;
-};
-
-sortColors([2, 0, 2, 1, 1, 0]);
+while (mid <= high) {
+  if (nums[mid] === 0) {
+    [nums[low], nums[mid]] = [nums[mid], nums[low]];
+    low++;
+    mid++;
+  } else if (nums[mid] === 1) {
+    mid++;
+  } else {
+    [nums[mid], nums[high]] = [nums[high], nums[mid]];
+    high--;
+  }
+}
+return nums;

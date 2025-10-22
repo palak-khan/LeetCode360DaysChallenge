@@ -23,4 +23,7 @@ console.log(newArr);
 console.log(count);
 
 
+Code
+
+1-two-sum.py
 // Optimized Approach
