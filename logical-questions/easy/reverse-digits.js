@@ -11,6 +11,6 @@ function reverse_of_digits(n) {
 let ans = reverse_of_digits(687);
 console.log(ans);
 
-console.log(typeof(String(ans).split("").reverse().join("")))
+console.log(typeof(String(ans).split("").reverse().join("")*2))
 
 
