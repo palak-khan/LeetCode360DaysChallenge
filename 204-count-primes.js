@@ -18,3 +18,4 @@ var countPrimes = function (n) {
   console.log(count);
   return count;
 };
+countPrimes(10); 
